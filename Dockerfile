@@ -9,6 +9,8 @@ WORKDIR /usr/src/app
 COPY requrement.txt requrement.txt
 
 RUN pip install -r requrement.txt
+RUN pip install --upgrade pip
+
 
 
 
